@@ -22,6 +22,12 @@
     background-size: cover;
     height: 2000px
 }
+.bg--short {
+    background-image: url("../../images/bg-paper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px
+}
 
 .bg-maps {
     background-image: url("../../images/java.svg");
