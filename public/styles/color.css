@@ -20,7 +20,7 @@
     background-image: url("../../images/bg-paper.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 660px
+    height: 2000px
 }
 
 .bg-maps {
@@ -28,6 +28,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* border: 1px solid red; */
+    height: 500px
+}
+
+.bg-container {
     height: 500px
 }
 
@@ -49,6 +53,20 @@
     color: white
 }
 
+.round-button.current {
+    display:block;
+    width:90px;
+    height:90px;
+    padding: 4px;
+    line-height:1em;
+    border: 2px solid #448DC2;
+    border-radius: 50%;
+    background: #448DC2;
+    color: white;
+    text-align:center;
+    text-decoration:none;
+}
+
 .reveal{
     position: relative;
     transform: translateY(150px);
@@ -60,3 +78,28 @@
     transform: translateY(0);
     opacity: 1;
   }
+
+  body {
+   background-color: #D4B690;
+}
+.bg-west    {
+    background-image: url("../../images/west.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid red; */
+    height: 500px
+}
+.bg-central    {
+    background-image: url("../../images/central.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid red; */
+    height: 500px
+}
+.bg-east    {
+    background-image: url("../../images/east.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid red; */
+    height: 500px
+}

@@ -1,8 +1,3 @@
-function goToAnotherPage() {
-    // Redirect to another HTML page
-    window.location.href = 'westjava.html';
-}
-
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
   
@@ -20,3 +15,18 @@ function reveal() {
   }
   
   window.addEventListener("scroll", reveal);
+  window.addEventListener("load", reveal);
+
+
+function goToWest() {
+    window.location.href = 'westjava.html';
+    
+}
+function goToCentral() {
+    window.location.href = 'centraljava.html';
+    
+}
+function goToEast() {
+    window.location.href = 'eastjava.html';
+    
+}
