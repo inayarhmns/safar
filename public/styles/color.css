@@ -15,3 +15,48 @@
 .black-bg {
     background-color: #393939; 
 }
+
+.bg-paper {
+    background-image: url("../../images/bg-paper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px
+}
+
+.bg-maps {
+    background-image: url("../../images/java.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid red; */
+    height: 500px
+}
+
+.round-button {
+    display:block;
+    width:90px;
+    height:90px;
+    padding: 4px;
+    line-height:1em;
+    border: 2px solid #448DC2;
+    border-radius: 50%;
+    color:#448DC2;
+    text-align:center;
+    text-decoration:none;
+    background: transparent;
+}
+.round-button:hover {
+    background: #448DC2;
+    color: white
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }

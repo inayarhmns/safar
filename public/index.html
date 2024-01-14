@@ -11,13 +11,147 @@
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/color.css">
 </head>
-<body class="poppins-regular">
-    <h1>Welcome to the Home Page</h1>
-    <div class="bg-blue-500 text-white p-4">
-        This is a blue box with white text and padding.
+<body class="poppins-regular black-text">
+    <!-- Navbar -->
+    <nav class="bg-white border-gray-200 ">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="../images/logo.svg" class="h-8" alt="Safar Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap ">Safar</span>
+        </a>
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
+            <li>
+                <a href="#" class="block py-2 px-3 blue-text bg-blue-700  rounded md:bg-transparent md:p-0  " aria-current="page">Home</a>
+            </li>
+            <li>
+                <a href="#" class="block py-2 px-3 black-text  md:hover:bg-transparent md:border-0 hover:blue-text md:p-0">Contact</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- content -->
+    <div class="bg-paper">
+        <div class="px-10 pt-10">
+            <h1 class="blue-text text-4xl sm:text-6xl poppins-bold">
+                Discover Islamic Heritages
+            </h1>
+            <h1 class="blue-text text-4xl sm:text-6xl poppins-bold">
+                Across Java
+            </h1>
+        </div>
+        <div class="absolute block pt-24 pl-5 md:pt-56 sm:pl-20" style= "width: 300px;">
+            <div class="" style="padding-right: 100px;">
+                <a href="westjava.html" class="text-decoration-none">
+                    <button class="round-button poppins-semibold mx-auto">
+                        West <br> Java
+                    </button>
+                </a>
+            </div>
+            <div class="" style="padding-left: 100px; padding-right: 100px;">
+                <a href="centraljava.html" class="text-decoration-none">
+                    <button class="round-button poppins-semibold mx-auto">
+                        Central <br> Java
+                    </button>
+                </a>
+            </div>
+            <div class="" style="padding-left: 200px;">
+                <a href="eastjava.html" class="text-decoration-none">
+                    <button class="round-button poppins-semibold mx-auto">
+                        East <br> Java
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="bg-maps"> 
+        </div>
     </div>
-    <!-- Button to navigate to another page -->
-    <button onclick="goToAnotherPage()">Go to Another Page</button>
+    <div class="text-center items-center justify-center p-2 sm:p-10" style="background: linear-gradient(0deg, #448DC2 -2.89%, #D4B690 54.43%);">
+        <div class="text-center items-center justify-center p-5 md:p-20 lg:px-72">
+            <p class="reveal text-md sm:text-xl poppins-regular">
+            “He is the One Who smoothed out the earth for you, so move about in its regions and eat from His provisions. And to Him is the resurrection ˹of all˺.” 
+            <br>al-Mulk:15
+            </p>
+        </div>
+        <div>
+            <p class="reveal blue-text poppins-bold text-2xl sm:text-3xl pt-10 md:pt-0">
+                Best Features For You
+            </p>
+            <p class="reveal poppins-light text-md sm:text-xl">
+                Our goal is to provide the best features to make your family trip as comfortable as possible.
+            </p>
+            <div class="reveal h-full w-full pt-12 p-4">
+                <div class="grid gap-14 md:grid-cols-3 md:gap-5">
+                  <div class="rounded-xl blue-bg p-6 text-center shadow-xl">
+                    <div
+                      class="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full blue-bg shadow-lg shadow-teal-500/40">
+                      <img src="../images/architecture.svg" alt="" height="100%" width="100%"/>
+                    </div>
+                    <h1 class="text-white mb-3 text-lg sm:text-xl poppins-semibold lg:px-14">Islamic Heritage</h1>
+                    <p class="text-md sm:text-lg px-2 sm:px-4 px-4 text-white">Uncover the beauty of Islamic art, architecture, and profound teachings all in one place.
+                  </div>
+                  <div data-aos-delay="150" class="rounded-xl bg-white p-6 text-center shadow-xl">
+                    <div
+                      class="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full shadow-lg bg-white shadow-rose-500/40"">
+                      <img src="../images/mosque.svg" alt="" height="100%" width="100%"/>
+                    </div>
+                    <h1 class="text-darken mb-3 text-lg sm:text-xl poppins-semibold lg:px-14 ">Popular Mosque</h1>
+                    <p class="text-md sm:text-lg px-2 sm:px-4 px-4 text-darken">Immerse yourself in a divine experience as you explore the unique offerings of this revered mosque.</p>
+                  </div>
+                  <div data-aos-delay="300" class="rounded-xl blue-bg p-6 text-center shadow-xl">
+                    <div
+                      class="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full shadow-lg blue-bg shadow-sky-500/40">
+                      <img src="../images/time.svg" alt="" height="100%" width="100%"/>
+                    </div>
+                    <h1 class="text-white mb-3 pt-3 text-lg sm:text-xl poppins-semibold lg:h-14 lg:px-14">Time Prayer</h1>
+                    <p class="text-md sm:text-lg px-2 sm:px-4 text-white">Experience the precision of our prayer time calculations, ensuring that you never miss a moment of connection with the divine.</p>
+                  </div>
+                </div>
+              
+              </div>
+        </div>
+        
+    </div>
+    <footer class="blue-bg">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <img src="../images/logo.svg" class="h-8" alt="Safar Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Safar</span>
+                </a>
+                <div class="items-end flex">
+                    <img src="../images/mdi_github.svg" class="h-8" alt="Github Logo" />
+                    <p class="pl-1 text-white text-sm">
+                        inayarhmns & maritzarahayui
+                    </p>
+                </div>
+                
+                <!-- <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Contact</a>
+                    </li>
+                </ul> -->
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700" />
+            <span class="block text-sm text-white sm:text-center ">© 2024 <a href="#" class="hover:underline">Safar team</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
     <script src="scripts/index.js"></script>
 </body>
 </html>
